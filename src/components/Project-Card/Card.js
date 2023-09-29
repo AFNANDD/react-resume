@@ -1,9 +1,9 @@
 const Card=(text)=>{
     return(
         <div className="ProjectCard">
-            <h1>{text.name}</h1>
-            <img src={text.img} alt="error"></img>
-            <p>{text.label}</p>
+            <img className="ProjectImg" src={text.img} alt="error"></img>
+            <h1 className="ProjectName" >{text.name}</h1>
+            <label className="ProjectLabel" >{text.label}</label>
         </div>
     )
 };

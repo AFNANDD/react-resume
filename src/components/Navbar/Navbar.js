@@ -23,7 +23,7 @@ const Navbar=()=>{
                                 whileTap={{scale: 0.9}}
                                 src={Logo}
                                 alt="Michael Yeates' Logo"
-                                style={{ height: "30px" , marginLeft: "10px"}}
+                                style={{ height: "50px" , marginLeft: "10px"}}
                             />
                         </motion.div>
                     </NavLink>
