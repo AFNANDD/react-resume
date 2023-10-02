@@ -2,13 +2,23 @@ import { NavLink } from "react-router-dom";
 
 const NavLinks = () => {
     return (
-        <div className="NavLinks">
-            <NavLink to="/" className="navlink" >Home</NavLink>
-            <NavLink to="/about" className="navlink" >About</NavLink>
-            <NavLink to="/skill" className="navlink" >Skills</NavLink>
-            <NavLink to="/project" className="navlink" >Project</NavLink>
-            <NavLink to="/experience" className="navlink" >Experience</NavLink>
-        </div>
+        <ul className="NavLinks">
+            <li>
+                <NavLink to="/" className="navlink-a" >Home</NavLink>
+            </li>
+            <li>
+                <NavLink to="/about" className="navlink-a" >About</NavLink>
+            </li>
+            <li>
+                <NavLink to="/skill" className="navlink-a" >Skills</NavLink>
+            </li>
+            <li>
+                <NavLink to="/project" className="navlink-a" >Project</NavLink>
+            </li>
+            <li>
+                <NavLink to="/experience" className="navlink-a" >Experience</NavLink>
+            </li>
+        </ul>
     )
 };
 
