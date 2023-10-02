@@ -1,0 +1,92 @@
+@media (min-width: 948px){
+    .ProjectPage {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        width: 100%;
+      }
+      .Project-Container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 100px;
+        flex-wrap: wrap;
+        padding: 50px;
+        background-color: transparent;
+        width: 60%;
+        border-radius: 25px;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
+      }
+      .ProjectCard{
+        background-color: transparent;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
+        border-radius: 15px;
+        width: 20%;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 15px;
+        min-height: 600px;
+      }
+      .ProjectName {
+        font-family: 'Inclusive Sans';
+        display: flex;
+        justify-content: center;
+      }
+      .ProjectImg {
+        width: 100%;
+        max-height: 300px;
+        border-radius: 10px;
+      }
+      .ProjectLabel {
+        padding: 10px;
+        font-family: 'Libre Baskerville';
+      }
+}
+@media (max-width: 947px){
+    .ProjectPage {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        width: 100%;
+      }
+      .Project-Container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 50px;
+        flex-wrap: wrap;
+        padding: 10px;
+        background-color: transparent;
+        width: 90%;
+        border-radius: 25px;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
+      }
+      .ProjectCard{
+        background-color: transparent;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
+        border-radius: 15px;
+        width: 90%;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 15px;
+        min-height: 400px;
+      }
+      .ProjectName {
+        font-family: 'Inclusive Sans';
+        display: flex;
+        justify-content: center;
+      }
+      .ProjectImg {
+        width: 100%;
+        max-height: 300px;
+        border-radius: 10px;
+      }
+      .ProjectLabel {
+        padding: 10px;
+        font-family: 'Libre Baskerville';
+      }
+}

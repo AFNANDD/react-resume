@@ -1,0 +1,42 @@
+@media (min-width: 948px) {
+    .AboutPage {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        width: 100%;
+      }
+      .About-Container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px;
+        background-color: transparent;
+        width: 60%;
+        border-radius: 25px;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
+      }
+}
+@media (max-width: 947px) {
+    .AboutPage {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        width: 100%;
+        height: 100vh;
+        padding-bottom: 20px;
+      }
+      .About-Container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px;
+        background-color: transparent;
+        width: 90%;
+        border-radius: 25px;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
+      }
+}

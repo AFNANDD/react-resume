@@ -6,6 +6,8 @@ import { useState } from "react";
 import openMenu from "../../images/open.svg";
 import closeMenu from "../../images/close.svg";
 
+import  "./Navbar.css"
+
 const Navbar=()=>{
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -50,7 +52,12 @@ const Navbar=()=>{
                         </motion.div>
                     </div>
                     <div>
-                    <ul className={`links ${isMenuOpen ? "open" : "closed"}`}>
+                        <motion.div
+                            initial={{ x: 100, opacity: 0 }}
+                            animate={{ x: 0, opacity: 1 }}
+                            transition={{ delay: 2.4, duration: 0.5, type: "spring" }}
+                            >
+                            <ul className={`links ${isMenuOpen ? "open" : "closed"}`}>
                                     <li>
                                         <NavLink to="/" onClick={()=>setIsMenuOpen(false)} >Home</NavLink>
                                     </li>
@@ -67,6 +74,7 @@ const Navbar=()=>{
                                         <NavLink to="/experience" onClick={()=>setIsMenuOpen(false)} >Experience</NavLink>
                                     </li>
                                 </ul>
+                        </motion.div>
                     </div>
                 </div>
             </motion.div>

@@ -1,0 +1,40 @@
+@media (min-width: 948px) {
+    .HomePage {
+        display: flex;
+        justify-content: center;
+        color: black;
+        height: calc(100vh - 100px);
+        align-items: center;
+        flex-direction: column;
+        color: black;
+        font-weight: bold;
+        font-size: 50px;
+        letter-spacing: 5px;
+      }
+      .HomePage span {
+        color: black;
+        font-weight: bold;
+        font-size: 30px;
+        letter-spacing: 5px;
+      }
+}
+@media (max-width: 947px) {
+    .HomePage {
+        display: flex;
+        justify-content: center;
+        color: black;
+        height: calc(100vh - 100px);
+        align-items: center;
+        flex-direction: column;
+        color: black;
+        font-weight: bold;
+        font-size: 10px;
+        letter-spacing: 5px;
+      }
+      .HomePage span {
+        color: black;
+        font-weight: bold;
+        font-size: 5px;
+        letter-spacing: 5px;
+      }
+}

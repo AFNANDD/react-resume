@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Typewritter from "typewriter-effect";
+import "./Home.css"
 
 const HomePage= (text) => {
     return (

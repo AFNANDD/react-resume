@@ -1,0 +1,116 @@
+@media (min-width: 948px) {
+    .Navbar-Container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+      }
+      .Navbar-Item {
+        width: 70%;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 10px;
+        background-color: transparent;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
+        padding: 30px;
+      }
+      .Navbar-Logo {
+        width: 10px;
+        height: 30px;
+      }
+      .dropdown-toggle {
+        display: none;
+      }
+      .links.closed {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+      }
+      a:hover {
+        color: rgb(19, 153, 80);
+        text-decoration: solid;
+      }
+}
+@media (max-width) {
+    .Navbar-Container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+      }
+      .Navbar-Item {
+        width: 90%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        background-color: transparent;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
+      }
+      .Navbar-button{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .Navbar-Logo {
+        display: inline-block;
+        white-space: nowrap;
+      }
+      .dropdown-toggle {
+        background: none;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      .openMenu,
+      .closeMenu {
+        height: 20px;
+        transition: transform 0.5s ease-in-out;
+      }
+      .closeMenu {
+        transform: rotate(180deg);
+        cursor: pointer;
+      }
+      .links {
+        display: none;
+        background-color: var(--bg-color);
+      }
+      ul {
+        padding-inline-start: 0;
+      }
+      @keyframes slideDown {
+        from {
+          opacity: 0;
+          transform: translateY(-20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .links.open {
+        display: flex;
+        margin-top: 10px;
+        gap: 30px;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        animation: slideDown 0.5s ease-in-out forwards;
+      }
+      .links.open a {
+        text-decoration: none;
+        color: black;
+      }
+}
